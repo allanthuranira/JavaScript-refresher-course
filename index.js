@@ -1,11 +1,9 @@
-<html>
-    <label>Input your kilometers</label><input id="km" type="number"></input>
-</html>
-function lenghtConvertor(kilometers) {
-    const converterValue = 0.621371;
-    const miles = converterValue * kilometers;
+var arr0 = [-2, 3, 5, -6, -9, 7, 8, -12];
+var arr1 = [0.5, 7.3, 2, 4, 7, 0.9, 1.35];
+let sum = 0;
 
-    var input = document.getElementById("km");
-    console.log(input);
-    console.log("The distance in miles is :" + miles);
+for (let i = 0; i < arr1.length; i++) {
+    sum += arr1[i];
 }
+
+console.log(sum);
