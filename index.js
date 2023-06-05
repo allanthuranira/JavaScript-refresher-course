@@ -1,6 +1,8 @@
-var myArray = [4, -5, 0, 2, -67, 8, 10, -34];
-var result = myArray.filter(function (number) {
-    return number > 0;
+var array = [34, 56, -56, 0.06, 88, -23, -98, -26];
+
+var positive = array.filter((v) => {
+    return v >= 0;
 });
-console.log(result);
+
+console.log(positive);
 
