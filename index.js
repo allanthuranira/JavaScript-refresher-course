@@ -1,8 +1,12 @@
-var array = [34, 56, -56, 0.06, 88, -23, -98, -26];
+//JS method to remove spaces from a string
 
-var positive = array.filter((v) => {
-    return v >= 0;
-});
+var string = "sggsgsgsg ggsgsggs hshshhs hshshs";
 
-console.log(positive);
+console.log(string.replaceAll(" ", ""));
+
+
+
+
+
+//console.log(string);
 
