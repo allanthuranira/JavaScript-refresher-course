@@ -8,5 +8,6 @@ console.log(string.replaceAll(" ", ""));
 
 
 
-//console.log(string);
+
+
 
