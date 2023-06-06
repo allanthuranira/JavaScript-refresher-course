@@ -1,19 +1,13 @@
-//Return a Boolean if a number is divisible by 10
+//return the number of vowels in a string
 
+var str = "My name is a string, count my number of vowels"
 
-function numberDivisibility(Number) {
-    for (var i = 74; i < 100; i++) {
-        if (i % 10 === 0) {
-            return true;
-        } else {
-            return false;
-        }
+function count(str) {
+    const vowels = str.match(/[aeiou]/gi);
+    return vowels === null ? 0 : vowels.length;
 
-    }
-    return Number;
 }
-
-console.log(numberDivisibility(Number));
+console.log(count(str));
 
 
 
