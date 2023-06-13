@@ -1,11 +1,13 @@
-//Find the area of a triangle where lengths of the three of its sides are 5, 6, 7
+//Find the area of a triangle using base and height values
 
-var a = 5;
-var b = 6;
-var c = 7;
 
-var d = (a + b + c) / 2;
 
-var area = Math.sqrt(d * ((d - a) * (d - b) * (d - c)));
+var base = 4;
+var height = 4;
+
+
+var area = 0.5 * base * height;
+
+
 console.log(area);
 
