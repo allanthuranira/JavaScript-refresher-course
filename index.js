@@ -1,24 +1,11 @@
-//JS getting month, days and time methods
+//Find the area of a triangle where lengths of the three of its sides are 5, 6, 7
 
-var date = new Date();
-var day = date.getDay();
-var daylist = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+var a = 5;
+var b = 6;
+var c = 7;
 
-var year = date.getFullYear();
-var month = date.getMonth() + 1;
+var d = (a + b + c) / 2;
 
-var hours = date.getHours();
-var minutes = date.getMinutes();
-var seconds = date.getSeconds();
-
-
-
-
-console.log(year, month);
-
-console.log(daylist[day], hours, minutes, seconds);
-
-
-
-
+var area = Math.sqrt(d * ((d - a) * (d - b) * (d - c)));
+console.log(area);
 
